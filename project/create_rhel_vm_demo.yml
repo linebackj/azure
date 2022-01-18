@@ -84,7 +84,7 @@
             key_data: "{{ rhel_public_key }}"
         network_interfaces: "{{ rhel_nic_name }}"
         image:
-          offer: "{{rhel_offer}}"
+          offer: rhel-byos
           publisher: RedHat
           sku: "{{ rhel_vm_sku }}"
           version: latest
