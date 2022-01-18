@@ -87,4 +87,4 @@
           offer: rhel-byos
           publisher: RedHat
           sku: "{{ rhel_vm_sku }}"
-          version: latest
+          version: 8.4.2021053101
